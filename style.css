@@ -274,7 +274,7 @@ input[type="checkbox"] {
   margin-left: 10.33px;
 }
 /* ------------------------------------responsiveness-------------------------------------- */
-@media( (max-width: 500px) and (min-width:400px) ){
+@media (max-width: 500px) {
   .container {
     height: 2000px;
     width: 100vw;
