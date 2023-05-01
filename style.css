@@ -92,7 +92,7 @@ h3 {
   border: 1px solid#EDEDED;
 }
 .task-card:hover {
-  box-shadow: 0px 0px 20px #67676729;
+  box-shadow: 0px 0px 20px 20px #67676729;
   transition-delay: 0.3s;
 }
 .task-card p {
@@ -193,7 +193,7 @@ input[type="checkbox"] {
 }
 /* ---------------------index 2--------------------- */
 .blur {
-  opacity: 0.6;
+ filter: blur(4px);
   z-index: -1;
 }
 .indexTwoFourBox {
@@ -293,11 +293,11 @@ input[type="checkbox"] {
  right: 50%;
  transform: translate(-50%);
   }
-.reposive{
+/* .reposive{
   position: absolute;
-  left: 500px;
-  top: 140px;
-}
+  left: 200px;
+  top: 150px;
+} */
   #displayNone {
     display: none;
   }
