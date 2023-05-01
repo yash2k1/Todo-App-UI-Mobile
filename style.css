@@ -293,7 +293,11 @@ input[type="checkbox"] {
  right: 50%;
  transform: translate(-50%);
   }
-
+.reposive{
+  position: absolute;
+  left: 500px;
+  top: 140px;
+}
   #displayNone {
     display: none;
   }
